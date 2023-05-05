@@ -4,7 +4,7 @@ const string path = @"C:\wamp64\www\.Net\Section_10\Exofichiers\data";
 string? saisie = " ";
 while (string.IsNullOrWhiteSpace(saisie))
 {
-    System.Console.WriteLine("Veuillez saisir votre nom et votre prénom");
+    System.Console.WriteLine("Veuillez saisir votre prénom et votre nom");
     saisie = Console.ReadLine();
 }
 
